@@ -7,7 +7,7 @@ Install xampp, locate your default local htdocs folder and place everything from
 
 Make sure Apache and MySQL are running.
 
-### To-do
+## To-do
 
 1. Import SQL database
 
