@@ -1,0 +1,41 @@
+.cnt-topic{
+	font-family: calibri;
+}
+
+.main-content{
+	margin-bottom: 130px;
+}
+
+.newsspace{
+	margin-top: 50px;
+}
+
+.cnt{
+	display: block;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #B2B2B2;
+	margin-left: 0px;
+	padding: 45px;
+	font-family: calibri;
+}
+
+.cnt h2{
+	margin-top: 30px;
+	margin-bottom: .75em;
+}
+
+.aside{
+	margin-left: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #B2B2B2;
+	width: 30%;
+}
+
+.newsdate{
+	float: right;
+	font-size: 11pt;
+}
+

@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0 ;
+}
+
+.omnitooldisplay{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	text-align: center;
+	/*height: 100%;
+	width: 100%;*/
+}
+
+.team-desc{
+	margin: 20px auto;
+	width: 81.3%;
+	padding: 15px;
+	background-color: #FFF;
+	border: 1px solid grey;
+	border-radius: 4px;
+}
+
+.team-desc p{
+	margin: 0;
+	color: #4C4C4C;
+	font-size: 18px;
+	text-align: left;
+}
+
+.content{
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	margin-bottom: 150px;
+}
+
+.button{
+	margin-top: 30px;
+	margin-left: 440;
+}
+
+.btn{
+	border:2px solid DodgerBlue;
+	border-radius: 4px;
+	padding: 14px 28px;
+	display: inline-block;
+	text-align: center;
+	color: white;
+	width: 160px;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 22px;
+	font-family: Verdana;
+	text-transform: uppercase;
+	background-color: DodgerBlue;
+	border-radius: 0px / 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+/*p{
+	margin-top: 20px;
+	margin-left: 160px;
+	margin-right: 160px;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 18px;
+	color: grey;
+}*/
+
+ul li{
+	text-align: left;
+	margin-left: 180px;
+	font-family: Calibri;
+	font-size: 18px;
+	color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

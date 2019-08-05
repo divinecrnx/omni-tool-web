@@ -1,0 +1,64 @@
+/* Documentation menu CSS starts HERE*/
+
+#menu-wrapper{
+	background-color:#171717;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 1;
+	width: 220px;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.menu-logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	opacity: 0.6;
+}
+
+.menu-logo:hover{
+	opacity: 1;
+}
+
+.list-nav{
+	font-family:Calibri;
+	text-decoration: none;
+	color: #8C8A8A;
+	padding: 8px 25px;
+	line-height: 25px;
+	text-align: center;
+	display: block;
+	text-align: justify;
+}
+
+.list-nav-chosen{
+	font-family:Calibri;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 8px 25px;
+	line-height: 25px;
+	text-align: center;
+	display: block;
+	text-align: justify;
+	background-color: #09317A;
+}
+
+.list-nav:hover{
+	background-color:#565656;
+	color:#FFFFFF	
+}
+
+
+
+.menu-bar{
+	position: absolute;
+	top: 0;
+	width: 220px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

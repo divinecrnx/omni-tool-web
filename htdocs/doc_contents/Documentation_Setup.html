@@ -1,0 +1,141 @@
+<html>
+
+<head>
+
+<title>Omni Tool - Documentation</title>
+
+<link rel="stylesheet" type="text/css" href="../../../assets/css/documentation_menu.css"/>
+<link rel="stylesheet" type="text/css" href="../../../assets/css/documentation_content.css"/>
+
+</head>
+
+<body>
+
+<div id="menu-wrapper">
+	<nav>
+		<ul class="menu-bar">
+			<li class="menu-logo">
+				<a href="../../../Home/home.html"><img src="../../../assets/images/img_placeholder.png" alt="Program Logo" width="150pxpx"></a>
+			</li>
+			<li>
+				<a href="../Documentation_Home.html" class="list-nav">Home</a>
+			</li>
+			<li>
+				<a href="Documentation_Menu.html" class="list-nav">Menu</a>
+			</li>
+			<li>
+				<a href="Documentation_Navigation_DL.html" class="list-nav">Navigation-DL</a>
+			</li>
+			<li>
+				<a href="Documentation_Giffer.html" class="list-nav">Giffer</a>
+			</li>
+			<li>
+				<a href="Documentation_Converter.html" class="list-nav">Converter</a>
+			</li>
+			<li>
+				<a href="Documentation_Combine.html" class="list-nav">Combine</a>
+			</li>
+			<li>
+				<a href="Documentation_Update.html" class="list-nav">Update Youtube-DL</a>
+			</li>
+			<li>
+				<a href="Documentation_Setup.html" class="list-nav-chosen">Setup.bat</a>
+			</li>
+			<li>
+				<a href="Documentation_WGET.html" class="list-nav">WGET</a>
+			</li>
+			<li>
+				<a href="Documentation_Direct.html" class="list-nav">Show file/folders</a>
+			</li>
+			<li>
+				<a href="Documentation_Exit.html" class="list-nav">Exit</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+
+<!--
+<header id="title">
+	<h1>Menu</h1>
+</header>
+-->
+
+<div id="content-wrapper">
+	<div id="content-table">
+		<a name="top"/>
+		<h1>Contents</h1>
+		
+		<ul>
+			<li><a href="#interface">Interface</a></li>
+			<li><a href="#desc">Description</a></li>
+		</ul>
+	</div>
+	
+	
+	
+	<div id="main-content">
+		<hr>
+		<a name="interface"/>
+		<a class="content-header" href="#top">Interface</a>
+		
+		</br>
+		</br>
+		
+		<img class="content-figure" src="../../../assets/images/menu_1.png">
+		
+		<hr>
+		<a name="desc"/>
+		<a class="content-header" href="#top">Description</a>
+		
+		<p>Before using the scripts, I advise you to run the setup to make sure all files and folders are present. If a problem exists, a prompt telling you to run Setup.bat will be present in the menu.</p> 
+		
+		<p>When finished, the setup will create a file called Finish.txt to let the setup know that every file and folder is accounted for and the program is ready to use.</p>
+		
+		<p>Choosing the setup option will do several things: </p>
+		
+		<ol class="option-list-ol">
+			<li><span>The setup navigates to the root directory</span></li>
+			<ul>
+				<li><span>Checks if Finish.txt is already present. If it is, it stops at this check and tells you it has no reason to run</span></li>
+				<ul>
+					<li><span>If Finish.txt does not exist, then the setup will create the folders 01 Downloads, 02 Gifs, 03 Conversions and 04 Combines</span></li>
+					<li><span>If Downloads.txt does not exist, the setup will create it together with Previous Downloads.txt</span></li>
+				</ul>
+			</ul>
+			<li><span>The setup then navigates to the 00 Dependencies folder</span></li>
+			<ul>
+				<li><span>If ytdl.exe exists, it renames it to it's original filename youtube-dl.exe</span></li>
+				<li><span>It checks if OK.txt is present in the folder. If it doesn't exist, that means one or more dependencies may be missing</span></li>
+				<ul>
+					<li><span>It then records the missing dependencies and leaves behind txt files that are named after the missing dependencies</span></li>
+					<li><span>It then navigates back into the root folder and leaves behind an Issue.txt file that details the issues that it recorded</span></li>
+					<li><span>However, if all dependencies are present during this, the setup will then create the OK.txt file and the setup then ends here without a problem</span></li>
+				</ul>
+				<li><span>If OK.txt is already present in the folder, that means every dependency is accounted for and it will echo an okay check to the screen</span></li>
+			</ul>
+		</ol>
+		
+		<p>Choosing the purge option will do several things: </p>
+		
+		<ol class="option-list-ol">
+			<li><span>The setup will notify you of what files and folders it will delete and whether if you're sure you want to proceed</span></li>
+			<li><span>If you proceed, the setup will then delete everything except for: </span></li>
+			<ul>
+				<li><span>Menu.bat</span></li>
+				<li><span>00 Dependencies</span></li>
+				<li><span>99 Modules</span></li>
+			</ul>
+		</ol>
+		
+		<p>Note: Make sure none of your downloaded files are in any of the deleted folders as they will be permanently lost.</p>
+		
+	</div>
+</div>
+
+
+
+
+
+</body>
+
+</html>

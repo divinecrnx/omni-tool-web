@@ -1,0 +1,18 @@
+.main-content{
+	width: 100%;
+}
+
+.aside{
+	margin-left: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #B2B2B2;
+	width: 30%;
+}
+
+.solution-list li{
+	color: #4C4C4C;
+	list-style: square;
+}
+
+

@@ -1,0 +1,82 @@
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+#login-wrapper{
+	margin-bottom: 150px;
+}
+
+/* Set a style for all buttons */
+button {
+	background-color: #017b69;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	transition: all .15s ease;
+	border-radius: 4px;
+}
+
+button:hover {
+	/*opacity: 0.8;*/
+	background-color: #01a68d;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+}
+
+img.avatar {
+	width: 40%;
+}
+
+.container {
+	padding: 16px;
+}
+
+span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+	display: block; /* Hidden by default */
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 0 auto 0 auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 2px solid #888;
+	border-radius: 2px;
+	width: 50%; /* Could be more or less, depending on screen size */
+}
+
+.close:hover,
+.close:focus {
+	color: red;
+	cursor: pointer;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

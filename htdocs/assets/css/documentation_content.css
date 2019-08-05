@@ -1,0 +1,128 @@
+body{
+	background-color:#1F1F1F;	
+}
+
+p{
+	color:#FFFFFF80;
+	font-family:calibri;
+	text-align:justify;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: #FFFFFF;
+	font-family: calibri;
+}
+
+a{
+	text-decoration: none;
+	color: #25C481;
+}
+
+/* Home Page */
+#content-wrapper{
+	margin-left: 220px;
+	padding: 0px 10px;
+}
+
+#intro{
+	margin-top: 200px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+#intro #program-logo img{
+	float: left;
+	margin-top: -12px;
+}
+
+#intro #program-intro h1{
+	padding: 20px;
+	background-color: #171717;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-family: Calibri;
+	text-align: left;
+}
+
+#main-content{
+	clear: left;
+	margin-top: 200px;
+}
+
+
+
+/* Menu Page */
+
+#content-table{
+	margin-top: 100px;
+	font-family: calibri;
+}
+
+#content-table ul{
+	list-style: disc;
+	color: white;
+}
+
+.content-figure{
+	border-style: solid;
+	border-width: 3px;
+	border-color: #FFFFFF;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-header{
+	color: #FFFFFF;
+	font-family: calibri;
+	font-size: 1.5em;
+}
+
+.content-header:hover{
+	text-decoration: underline;
+}
+
+.option-list{
+	list-style: disc;
+	color: #FFFFFF;
+}
+
+.option-list a{
+	font-family: calibri;
+}
+
+.option-list span{
+	color: #25C481;
+	font-family: calibri;
+}
+
+.option-list-ol{
+	type: 1; 
+	color: #FFFFFF;
+	font-family: calibri;
+}
+
+.option-list-ol span{
+	color: #FFF824;
+}
+
+/*
+#title{
+	background-color: #171717;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 210px;
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#title h1{
+	text-indent: 20px;
+}
+*/

@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+	
+	<meta charset="UTF-8">
+	<title>Omni Tool - F.A.Q </title>
+ 
+	<link rel="stylesheet" style="text/css" href="assets/css/navigation.css">
+	<link rel="stylesheet" style="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" style="text/css" href="assets/css/global.css">
+	<link rel="stylesheet" style="text/css" href="assets/css/faqstyle.css">
+ 
+</head>
+<body>
+
+	<div id="prime-container">
+
+	    <!-- Navigation bar -->
+		<header id="header" class="clearfix">
+		
+			<a href="/"><img class="main-logo" src="assets/images/img_placeholder.png" alt="Program Logo"></a>
+			
+			<div class="navbar">
+				<a class="top-link biglink" href="/">Home</a>
+				<a class="top-link biglink" href="download">Download</a>
+				<a class="top-link biglink" href="about">About</a>
+				
+				<div class="dropdown1">
+					<button class="dropbtn1">Developers</button>
+				
+					<div class="dropdown-content1">
+						<a href="contribute">Contribute</a>
+						<a href="documentation">Documentation</a>
+					</div>
+					
+				</div>
+				
+				<div class="dropdown2">
+					
+					<button class="dropbtn2">Community</button>
+				
+					<div class="dropdown-content2">
+						<a href="news">News</a>
+						<a href="support">Support</a>
+						<a href="faq">F.A.Q</a>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</header>
+		<!-- Navigation bar ends here-->
+
+		<!-- Main content -->
+		<div class="main clearfix">
+			<!--Faq question-->
+			<h1>Frequently Asked Questions</br></br>Here are some questions about Omni Tool</h1>
+			<div id="container">
+				
+				<div class="accordion">
+					<label for="accordion1"><h2>Why can't I get past the python screen, even though I have it installed?</h2></label>
+					<input type="checkbox" id="accordion1">
+					<p class="single-text"> You did not add it to your system path. Please add it or reinstall python and make sure the add to path option is checked.</p>
+				</div>
+
+				<div class="accordion">
+					<label for="accordion2"><h2>Why is youtube-dl included in the download and not ffmpeg?</h2></label>
+					<input type="checkbox" id="accordion2">
+					<p class="single-text"> Youtube-DL is released to the public domain and is therefore free for us to redistribute as we'd like. 
+					It also provides a built in updater, which leaves the option of updating entirely up to the user.</br>
+					Whereas ffmpeg is more in the grey area in terms of copyright and is therefore not recommended to be included. 
+					Plus, to compile versions of it for x86 and x64 systems require a bit of work compared to the easy install of python.</p>
+
+				</div>
+
+				<div class="accordion">
+					<label for="accordion3"><h2>Can I modify the scripts and re-use them however I'd like?</h2></label>
+					<input type="checkbox" id="accordion3">
+					<p class="single-text"> Yes. But, only if you did change it. Otherwise do not claim it as your own if it's not modified in any shape or form.</p>
+				</div>
+
+				<div class="accordion">
+					<label for="accordion4"><h2>Downloads are not starting even though youtube-dl is present and detected by the script.</h2></label>
+					<input type="checkbox" id="accordion4">
+					<p class="single-text"> Problems may arise if youtube-dl is not up-to-date. Please run the updater.</p>
+				</div>
+
+				<div class="accordion">
+					<label for="accordion5"><h2>Some of the options don't work or are not working properly. Why is that?</h2></label>
+					<input type="checkbox" id="accordion5">
+					<p class="single-text"> Some files may be missing in the root folder. Run Setup.bat to check if anything is missing. If folders or text files are missing, 
+					the setup will automatically create them for you.</p>
+				</div>
+
+				<div class="accordion">
+					<label for="accordion6"><h2>My question isn't listed. How and where do I go for more help?</h2></label>
+					<input type="checkbox" id="accordion6">
+					<p class="single-text"> Navigate to the support page or read up on the documentation if you don't mind some reading.</p>
+				</div>
+
+				<h3 style="color:white; letter-spacing:2px; margin-left:5px">*If you have any questions, you can:</br></br>
+
+				<ul>
+
+					<li>To Documentation > Navigation-DL as reference.</li></br>
+					<li>Contact us.</li>
+
+				</ul>
+
+				</h3>
+
+			</div>
+
+		</div>
+		<!-- End main content -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="footer-content">
+					
+					<div class="footer-nav-column">
+						<img class="footer-logo" src="assets/images/img_placeholder.png" alt="Company Logo">
+					</div>
+				
+					<div class="footer-nav-column">
+						<h3 class="nav-group">Explore</h3>
+						<a class="footer-nav-sublink" href="download">Download</a>
+						<a class="footer-nav-sublink" href="about">About</a>
+						<a class="footer-nav-sublink" href="/">Home</a>
+					</div>
+				
+					<div class="footer-nav-column">
+						<h3 class="nav-group">Help and Support</h3>
+						
+						<a class="footer-nav-sublink" href="documentation">Documentation</a>
+						<a class="footer-nav-sublink" href="support">Support</a>
+						<a class="footer-nav-sublink" href="faq">F.A.Q</a>
+					</div>
+					
+					<div class="footer-nav-column">
+						<h3 class="nav-group">Resources</h3>
+						
+						<a class="footer-nav-sublink" href="contribute">Contribute</a>
+						<a class="footer-nav-sublink" href="news">News</a>
+					</div>
+				
+			</div>
+			
+			<p id="footer-copyright"><span class="copyright-gray">&#169;</span> Omni Tool <span class="copyright-gray">2019</span></p>
+				
+		</footer>
+		<!-- Footer ends here -->
+
+	</div>
+
+</body>
+</html>
